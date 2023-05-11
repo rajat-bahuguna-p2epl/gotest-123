@@ -38,6 +38,7 @@ pipeline {
                         def message = "Security check failed: ${reports.issues.size()} issues found. Please check the report for more details: ${env.BUILD_URL}artifact/reports.json"
                         // slackSend(color: 'danger', channel: '#pl-kalp-build-alerts', message: message)
                         error message
+			exit 1
                     } else {
 						// slackSend(color: 'good', channel: '#pl-kalp-build-alerts', message: "No security issues found. Please check the report for more details: ${env.BUILD_URL}artifact/reports.json")
 					}
