@@ -1,0 +1,2027 @@
+{
+	"Golang errors": {
+		"": [
+			{
+				"line": 0,
+				"column": 0,
+				"error": "# command-line-arguments\nupdate-urls/testdata/reactions-want.go:16:6: ReactionsService redeclared in this block\n\tupdate-urls/testdata/reactions-original.go:16:6: other declaration of ReactionsService\nupdate-urls/testdata/reactions-want.go:19:6: Reaction redeclared in this block\n\tupdate-urls/testdata/reactions-original.go:19:6: other declaration of Reaction\nupdate-urls/testdata/reactions-want.go:31:6: Reactions redeclared in this block\n\tupdate-urls/testdata/reactions-original.go:31:6: other declaration of Reactions\nupdate-urls/testdata/reactions-want.go:48:6: ListCommentReactionOptions redeclared in this block\n\tupdate-urls/testdata/reactions-original.go:48:6: other declaration of ListCommentReactionOptions\nupdate-urls/testdata/reactions-want.go:60:28: method ReactionsService.ListCommentReactions already declared at update-urls/testdata/reactions-original.go:60:28\nupdate-urls/testdata/reactions-want.go:90:28: method ReactionsService.CreateCommentReaction already declared at update-urls/testdata/reactions-original.go:90:28\nupdate-urls/testdata/reactions-want.go:114:28: method ReactionsService.DeleteCommentReaction already declared at update-urls/testdata/reactions-original.go:114:28\nupdate-urls/testdata/reactions-want.go:123:28: method ReactionsService.DeleteCommentReactionByID already declared at update-urls/testdata/reactions-original.go:123:28\nupdate-urls/testdata/reactions-want.go:132:28: method ReactionsService.ListIssueReactions already declared at update-urls/testdata/reactions-original.go:132:28\nupdate-urls/testdata/reactions-original.go:16:23: undefined: service\nupdate-urls/testdata/reactions-want.go:132:28: too many errors"
+			}
+		],
+		"/Users/rajatbahuguna/Documents/projects/gotest/go-github/example/newfilewithappauth/main.go": [
+			{
+				"line": 18,
+				"column": 2,
+				"error": "could not import github.com/bradleyfalzon/ghinstallation/v2 (invalid package name: \"\")"
+			},
+			{
+				"line": 31,
+				"column": 14,
+				"error": "undefined: ghinstallation"
+			}
+		],
+		"/Users/rajatbahuguna/Documents/projects/gotest/go-github/example/newreposecretwithlibsodium/main.go": [
+			{
+				"line": 38,
+				"column": 9,
+				"error": "could not import github.com/GoKillers/libsodium-go/cryptobox (invalid package name: \"\")"
+			}
+		],
+		"/Users/rajatbahuguna/Documents/projects/gotest/go-github/example/ratelimit/main.go": [
+			{
+				"line": 15,
+				"column": 2,
+				"error": "could not import github.com/gofri/go-github-ratelimit/github_ratelimit (invalid package name: \"\")"
+			}
+		],
+		"/Users/rajatbahuguna/Documents/projects/gotest/go-github/scrape/apps.go": [
+			{
+				"line": 19,
+				"column": 2,
+				"error": "could not import github.com/PuerkitoBio/goquery (invalid package name: \"\")"
+			}
+		],
+		"/Users/rajatbahuguna/Documents/projects/gotest/go-github/scrape/example/scrape/main.go": [
+			{
+				"line": 15,
+				"column": 2,
+				"error": "could not import github.com/google/go-github/scrape (invalid package name: \"\")"
+			}
+		],
+		"/Users/rajatbahuguna/Documents/projects/gotest/go-github/scrape/scrape.go": [
+			{
+				"line": 32,
+				"column": 2,
+				"error": "could not import github.com/xlzd/gotp (invalid package name: \"\")"
+			}
+		],
+		"/Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/activity_events-original.go": [
+			{
+				"line": 16,
+				"column": 10,
+				"error": "undefined: ActivityService"
+			},
+			{
+				"line": 16,
+				"column": 65,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 16,
+				"column": 82,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 16,
+				"column": 90,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 17,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 27,
+				"column": 16,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 39,
+				"column": 10,
+				"error": "undefined: ActivityService"
+			},
+			{
+				"line": 39,
+				"column": 95,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 39,
+				"column": 112,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 39,
+				"column": 120,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 41,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 51,
+				"column": 16,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 66,
+				"column": 10,
+				"error": "undefined: ActivityService"
+			},
+			{
+				"line": 66,
+				"column": 99,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 66,
+				"column": 116,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 66,
+				"column": 124,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 68,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 78,
+				"column": 16,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 90,
+				"column": 10,
+				"error": "undefined: ActivityService"
+			},
+			{
+				"line": 90,
+				"column": 92,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 90,
+				"column": 109,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 90,
+				"column": 117,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 92,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 102,
+				"column": 16,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 116,
+				"column": 10,
+				"error": "undefined: ActivityService"
+			},
+			{
+				"line": 116,
+				"column": 110,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 116,
+				"column": 127,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 116,
+				"column": 135,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 123,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 133,
+				"column": 16,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 147,
+				"column": 10,
+				"error": "undefined: ActivityService"
+			},
+			{
+				"line": 147,
+				"column": 109,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 147,
+				"column": 126,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 147,
+				"column": 134,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 154,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 164,
+				"column": 16,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 177,
+				"column": 10,
+				"error": "undefined: ActivityService"
+			},
+			{
+				"line": 177,
+				"column": 102,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 177,
+				"column": 119,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 177,
+				"column": 127,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 179,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 189,
+				"column": 16,
+				"error": "undefined: Event"
+			}
+		],
+		"/Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/activity_events-want.go": [
+			{
+				"line": 16,
+				"column": 10,
+				"error": "undefined: ActivityService"
+			},
+			{
+				"line": 16,
+				"column": 65,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 16,
+				"column": 82,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 16,
+				"column": 90,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 17,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 27,
+				"column": 16,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 39,
+				"column": 10,
+				"error": "undefined: ActivityService"
+			},
+			{
+				"line": 39,
+				"column": 95,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 39,
+				"column": 112,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 39,
+				"column": 120,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 41,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 51,
+				"column": 16,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 66,
+				"column": 10,
+				"error": "undefined: ActivityService"
+			},
+			{
+				"line": 66,
+				"column": 99,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 66,
+				"column": 116,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 66,
+				"column": 124,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 68,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 78,
+				"column": 16,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 90,
+				"column": 10,
+				"error": "undefined: ActivityService"
+			},
+			{
+				"line": 90,
+				"column": 92,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 90,
+				"column": 109,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 90,
+				"column": 117,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 92,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 102,
+				"column": 16,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 116,
+				"column": 10,
+				"error": "undefined: ActivityService"
+			},
+			{
+				"line": 116,
+				"column": 110,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 116,
+				"column": 127,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 116,
+				"column": 135,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 123,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 133,
+				"column": 16,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 147,
+				"column": 10,
+				"error": "undefined: ActivityService"
+			},
+			{
+				"line": 147,
+				"column": 109,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 147,
+				"column": 126,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 147,
+				"column": 134,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 154,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 164,
+				"column": 16,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 177,
+				"column": 10,
+				"error": "undefined: ActivityService"
+			},
+			{
+				"line": 177,
+				"column": 102,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 177,
+				"column": 119,
+				"error": "undefined: Event"
+			},
+			{
+				"line": 177,
+				"column": 127,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 179,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 189,
+				"column": 16,
+				"error": "undefined: Event"
+			}
+		],
+		"/Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go": [
+			{
+				"line": 16,
+				"column": 6,
+				"error": "other declaration of ReactionsService"
+			},
+			{
+				"line": 16,
+				"column": 23,
+				"error": "undefined: service"
+			},
+			{
+				"line": 19,
+				"column": 6,
+				"error": "other declaration of Reaction"
+			},
+			{
+				"line": 22,
+				"column": 10,
+				"error": "undefined: User"
+			},
+			{
+				"line": 31,
+				"column": 6,
+				"error": "other declaration of Reactions"
+			},
+			{
+				"line": 43,
+				"column": 9,
+				"error": "undefined: Stringify"
+			},
+			{
+				"line": 48,
+				"column": 6,
+				"error": "other declaration of ListCommentReactionOptions"
+			},
+			{
+				"line": 54,
+				"column": 2,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 60,
+				"column": 149,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 62,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 67,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 73,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 76,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 90,
+				"column": 130,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 93,
+				"column": 29,
+				"error": "undefined: String"
+			},
+			{
+				"line": 94,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 100,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 103,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 114,
+				"column": 122,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 123,
+				"column": 114,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 132,
+				"column": 106,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 132,
+				"column": 134,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 134,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 139,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 145,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 148,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 162,
+				"column": 130,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 165,
+				"column": 29,
+				"error": "undefined: String"
+			},
+			{
+				"line": 166,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 172,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 175,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 186,
+				"column": 126,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 195,
+				"column": 118,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 204,
+				"column": 111,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 204,
+				"column": 139,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 206,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 211,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 217,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 220,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 234,
+				"column": 135,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 237,
+				"column": 29,
+				"error": "undefined: String"
+			},
+			{
+				"line": 238,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 244,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 247,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 258,
+				"column": 127,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 267,
+				"column": 119,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 276,
+				"column": 117,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 276,
+				"column": 145,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 278,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 283,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 289,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 292,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 306,
+				"column": 141,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 309,
+				"column": 29,
+				"error": "undefined: String"
+			},
+			{
+				"line": 310,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 316,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 319,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 330,
+				"column": 133,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 339,
+				"column": 125,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 348,
+				"column": 119,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 348,
+				"column": 147,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 350,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 355,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 360,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 363,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 375,
+				"column": 143,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 378,
+				"column": 29,
+				"error": "undefined: String"
+			},
+			{
+				"line": 379,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 384,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 387,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 398,
+				"column": 142,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 407,
+				"column": 151,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 416,
+				"column": 141,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 416,
+				"column": 169,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 418,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 423,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 428,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 431,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 442,
+				"column": 165,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 445,
+				"column": 29,
+				"error": "undefined: String"
+			},
+			{
+				"line": 446,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 451,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 454,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 465,
+				"column": 164,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 474,
+				"column": 173,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 480,
+				"column": 78,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 481,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 487,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 489,
+				"column": 11,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			}
+		],
+		"/Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-want.go": [
+			{
+				"line": 16,
+				"column": 6,
+				"error": "ReactionsService redeclared in this block"
+			},
+			{
+				"line": 16,
+				"column": 23,
+				"error": "undefined: service"
+			},
+			{
+				"line": 19,
+				"column": 6,
+				"error": "Reaction redeclared in this block"
+			},
+			{
+				"line": 22,
+				"column": 10,
+				"error": "undefined: User"
+			},
+			{
+				"line": 31,
+				"column": 6,
+				"error": "Reactions redeclared in this block"
+			},
+			{
+				"line": 42,
+				"column": 19,
+				"error": "method Reaction.String already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:42:19"
+			},
+			{
+				"line": 43,
+				"column": 9,
+				"error": "undefined: Stringify"
+			},
+			{
+				"line": 48,
+				"column": 6,
+				"error": "ListCommentReactionOptions redeclared in this block"
+			},
+			{
+				"line": 54,
+				"column": 2,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 60,
+				"column": 28,
+				"error": "method ReactionsService.ListCommentReactions already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:60:28"
+			},
+			{
+				"line": 60,
+				"column": 149,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 62,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 67,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 73,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 76,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 90,
+				"column": 28,
+				"error": "method ReactionsService.CreateCommentReaction already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:90:28"
+			},
+			{
+				"line": 90,
+				"column": 130,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 93,
+				"column": 29,
+				"error": "undefined: String"
+			},
+			{
+				"line": 94,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 100,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 103,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 114,
+				"column": 28,
+				"error": "method ReactionsService.DeleteCommentReaction already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:114:28"
+			},
+			{
+				"line": 114,
+				"column": 122,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 123,
+				"column": 28,
+				"error": "method ReactionsService.DeleteCommentReactionByID already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:123:28"
+			},
+			{
+				"line": 123,
+				"column": 114,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 132,
+				"column": 28,
+				"error": "method ReactionsService.ListIssueReactions already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:132:28"
+			},
+			{
+				"line": 132,
+				"column": 106,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 132,
+				"column": 134,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 134,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 139,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 145,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 148,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 162,
+				"column": 28,
+				"error": "method ReactionsService.CreateIssueReaction already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:162:28"
+			},
+			{
+				"line": 162,
+				"column": 130,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 165,
+				"column": 29,
+				"error": "undefined: String"
+			},
+			{
+				"line": 166,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 172,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 175,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 186,
+				"column": 28,
+				"error": "method ReactionsService.DeleteIssueReaction already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:186:28"
+			},
+			{
+				"line": 186,
+				"column": 126,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 195,
+				"column": 28,
+				"error": "method ReactionsService.DeleteIssueReactionByID already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:195:28"
+			},
+			{
+				"line": 195,
+				"column": 118,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 204,
+				"column": 28,
+				"error": "method ReactionsService.ListIssueCommentReactions already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:204:28"
+			},
+			{
+				"line": 204,
+				"column": 111,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 204,
+				"column": 139,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 206,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 211,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 217,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 220,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 234,
+				"column": 28,
+				"error": "method ReactionsService.CreateIssueCommentReaction already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:234:28"
+			},
+			{
+				"line": 234,
+				"column": 135,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 237,
+				"column": 29,
+				"error": "undefined: String"
+			},
+			{
+				"line": 238,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 244,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 247,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 258,
+				"column": 28,
+				"error": "method ReactionsService.DeleteIssueCommentReaction already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:258:28"
+			},
+			{
+				"line": 258,
+				"column": 127,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 267,
+				"column": 28,
+				"error": "method ReactionsService.DeleteIssueCommentReactionByID already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:267:28"
+			},
+			{
+				"line": 267,
+				"column": 119,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 276,
+				"column": 28,
+				"error": "method ReactionsService.ListPullRequestCommentReactions already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:276:28"
+			},
+			{
+				"line": 276,
+				"column": 117,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 276,
+				"column": 145,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 278,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 283,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 289,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 292,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 306,
+				"column": 28,
+				"error": "method ReactionsService.CreatePullRequestCommentReaction already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:306:28"
+			},
+			{
+				"line": 306,
+				"column": 141,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 309,
+				"column": 29,
+				"error": "undefined: String"
+			},
+			{
+				"line": 310,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 316,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 319,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 330,
+				"column": 28,
+				"error": "method ReactionsService.DeletePullRequestCommentReaction already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:330:28"
+			},
+			{
+				"line": 330,
+				"column": 133,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 339,
+				"column": 28,
+				"error": "method ReactionsService.DeletePullRequestCommentReactionByID already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:339:28"
+			},
+			{
+				"line": 339,
+				"column": 125,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 348,
+				"column": 28,
+				"error": "method ReactionsService.ListTeamDiscussionReactions already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:348:28"
+			},
+			{
+				"line": 348,
+				"column": 119,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 348,
+				"column": 147,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 350,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 355,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 360,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 363,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 375,
+				"column": 28,
+				"error": "method ReactionsService.CreateTeamDiscussionReaction already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:375:28"
+			},
+			{
+				"line": 375,
+				"column": 143,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 378,
+				"column": 29,
+				"error": "undefined: String"
+			},
+			{
+				"line": 379,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 384,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 387,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 398,
+				"column": 28,
+				"error": "method ReactionsService.DeleteTeamDiscussionReaction already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:398:28"
+			},
+			{
+				"line": 398,
+				"column": 142,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 407,
+				"column": 28,
+				"error": "method ReactionsService.DeleteTeamDiscussionReactionByOrgIDAndTeamID already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:407:28"
+			},
+			{
+				"line": 407,
+				"column": 151,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 416,
+				"column": 28,
+				"error": "method ReactionsService.ListTeamDiscussionCommentReactions already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:416:28"
+			},
+			{
+				"line": 416,
+				"column": 141,
+				"error": "undefined: ListOptions"
+			},
+			{
+				"line": 416,
+				"column": 169,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 418,
+				"column": 12,
+				"error": "undefined: addOptions"
+			},
+			{
+				"line": 423,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 428,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 431,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 442,
+				"column": 28,
+				"error": "method ReactionsService.CreateTeamDiscussionCommentReaction already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:442:28"
+			},
+			{
+				"line": 442,
+				"column": 165,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 445,
+				"column": 29,
+				"error": "undefined: String"
+			},
+			{
+				"line": 446,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 451,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 454,
+				"column": 17,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 465,
+				"column": 28,
+				"error": "method ReactionsService.DeleteTeamDiscussionCommentReaction already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:465:28"
+			},
+			{
+				"line": 465,
+				"column": 164,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 474,
+				"column": 28,
+				"error": "method ReactionsService.DeleteTeamDiscussionCommentReactionByOrgIDAndTeamID already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:474:28"
+			},
+			{
+				"line": 474,
+				"column": 173,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 480,
+				"column": 28,
+				"error": "method ReactionsService.deleteReaction already declared at /Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/testdata/reactions-original.go:480:28"
+			},
+			{
+				"line": 480,
+				"column": 78,
+				"error": "undefined: Response"
+			},
+			{
+				"line": 481,
+				"column": 16,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			},
+			{
+				"line": 487,
+				"column": 27,
+				"error": "undefined: mediaTypeReactionsPreview"
+			},
+			{
+				"line": 489,
+				"column": 11,
+				"error": "s.client undefined (type *ReactionsService has no field or method client)"
+			}
+		]
+	},
+	"Issues": [
+		{
+			"severity": "MEDIUM",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "22",
+				"url": "https://cwe.mitre.org/data/definitions/22.html"
+			},
+			"rule_id": "G304",
+			"details": "Potential file inclusion via variable",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/main.go",
+			"code": "191: func (lfr *liveFileRewriter) ReadFile(filename string) ([]byte, error) {\n192: \treturn os.ReadFile(filename)\n193: }\n",
+			"line": "192",
+			"column": "9",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "MEDIUM",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "22",
+				"url": "https://cwe.mitre.org/data/definitions/22.html"
+			},
+			"rule_id": "G304",
+			"details": "Potential file inclusion via variable",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/example/commitpr/main.go",
+			"code": "118: \n119: \tb, err = os.ReadFile(localFile)\n120: \treturn targetName, b, err\n",
+			"line": "119",
+			"column": "11",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "MEDIUM",
+			"confidence": "MEDIUM",
+			"cwe": {
+				"id": "88",
+				"url": "https://cwe.mitre.org/data/definitions/88.html"
+			},
+			"rule_id": "G107",
+			"details": "Potential HTTP request made with variable url",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/main.go",
+			"code": "589: \t\ttime.Sleep(60 * time.Second)\n590: \t\tresp, err = http.Get(fullURL)\n591: \t\tcheck(\"Unable to get URL: %v: %v\", fullURL, err)\n",
+			"line": "590",
+			"column": "15",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "MEDIUM",
+			"confidence": "MEDIUM",
+			"cwe": {
+				"id": "88",
+				"url": "https://cwe.mitre.org/data/definitions/88.html"
+			},
+			"rule_id": "G107",
+			"details": "Potential HTTP request made with variable url",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/update-urls/main.go",
+			"code": "583: \ttime.Sleep(httpGetDelay)\n584: \tresp, err := http.Get(fullURL)\n585: \tcheck(\"Unable to get URL: %v: %v\", fullURL, err)\n",
+			"line": "584",
+			"column": "15",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "MEDIUM",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G307",
+			"details": "Deferring unsafe method \"Close\" on type \"io.ReadCloser\"",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/scrape/scrape.go",
+			"code": "107: \n108: \tdefer resp.Body.Close()\n109: \tdoc, err := goquery.NewDocumentFromReader(resp.Body)\n",
+			"line": "108",
+			"column": "2",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "MEDIUM",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G307",
+			"details": "Deferring unsafe method \"Close\" on type \"io.ReadCloser\"",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/scrape/forms.go",
+			"code": "89: \n90: \tdefer resp.Body.Close()\n91: \troot, err := html.Parse(resp.Body)\n",
+			"line": "90",
+			"column": "2",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "MEDIUM",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G307",
+			"details": "Deferring unsafe method \"Close\" on type \"io.ReadCloser\"",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/repos_contents.go",
+			"code": "312: \t}\n313: \tdefer resp.Body.Close()\n314: \n",
+			"line": "313",
+			"column": "2",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "MEDIUM",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G307",
+			"details": "Deferring unsafe method \"Close\" on type \"io.ReadCloser\"",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/repos.go",
+			"code": "1248: \t}\n1249: \tdefer resp.Body.Close()\n1250: \n",
+			"line": "1249",
+			"column": "2",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "MEDIUM",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G307",
+			"details": "Deferring unsafe method \"Close\" on type \"io.ReadCloser\"",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/github.go",
+			"code": "810: \t}\n811: \tdefer resp.Body.Close()\n812: \n",
+			"line": "811",
+			"column": "2",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "MEDIUM",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G307",
+			"details": "Deferring unsafe method \"Close\" on type \"io.ReadCloser\"",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/github.go",
+			"code": "767: \tif err != nil {\n768: \t\tdefer resp.Body.Close()\n769: \t\t// Special case for AcceptedErrors. If an AcceptedError\n",
+			"line": "768",
+			"column": "3",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "MEDIUM",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G307",
+			"details": "Deferring unsafe method \"Close\" on type \"io.ReadCloser\"",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/actions_workflow_runs.go",
+			"code": "294: \t}\n295: \tdefer resp.Body.Close()\n296: \n",
+			"line": "295",
+			"column": "2",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "MEDIUM",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G307",
+			"details": "Deferring unsafe method \"Close\" on type \"io.ReadCloser\"",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/actions_workflow_runs.go",
+			"code": "218: \t}\n219: \tdefer resp.Body.Close()\n220: \n",
+			"line": "219",
+			"column": "2",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "MEDIUM",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G307",
+			"details": "Deferring unsafe method \"Close\" on type \"io.ReadCloser\"",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/actions_workflow_jobs.go",
+			"code": "124: \t}\n125: \tdefer resp.Body.Close()\n126: \n",
+			"line": "125",
+			"column": "2",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "MEDIUM",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G307",
+			"details": "Deferring unsafe method \"Close\" on type \"io.ReadCloser\"",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/actions_artifacts.go",
+			"code": "130: \t}\n131: \tdefer resp.Body.Close()\n132: \n",
+			"line": "131",
+			"column": "2",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "MEDIUM",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "327",
+				"url": "https://cwe.mitre.org/data/definitions/327.html"
+			},
+			"rule_id": "G505",
+			"details": "Blocklisted import crypto/sha1: weak cryptographic primitive",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/messages.go",
+			"code": "12: \t\"crypto/hmac\"\n13: \t\"crypto/sha1\"\n14: \t\"crypto/sha256\"\n",
+			"line": "13",
+			"column": "2",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "LOW",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G104",
+			"details": "Errors unhandled.",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/strings.go",
+			"code": "89: \n90: \t\tw.Write([]byte{'}'})\n91: \tdefault:\n",
+			"line": "90",
+			"column": "3",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "LOW",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G104",
+			"details": "Errors unhandled.",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/strings.go",
+			"code": "85: \t\t\tw.Write([]byte(v.Type().Field(i).Name))\n86: \t\t\tw.Write([]byte{':'})\n87: \t\t\tstringifyValue(w, fv)\n",
+			"line": "86",
+			"column": "4",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "LOW",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G104",
+			"details": "Errors unhandled.",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/strings.go",
+			"code": "84: \n85: \t\t\tw.Write([]byte(v.Type().Field(i).Name))\n86: \t\t\tw.Write([]byte{':'})\n",
+			"line": "85",
+			"column": "4",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "LOW",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G104",
+			"details": "Errors unhandled.",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/strings.go",
+			"code": "79: \t\t\tif sep {\n80: \t\t\t\tw.Write([]byte(\", \"))\n81: \t\t\t} else {\n",
+			"line": "80",
+			"column": "5",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "LOW",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G104",
+			"details": "Errors unhandled.",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/strings.go",
+			"code": "63: \n64: \t\tw.Write([]byte{'{'})\n65: \n",
+			"line": "64",
+			"column": "3",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "LOW",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G104",
+			"details": "Errors unhandled.",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/strings.go",
+			"code": "54: \t\tif v.Type().Name() != \"\" {\n55: \t\t\tw.Write([]byte(v.Type().String()))\n56: \t\t}\n",
+			"line": "55",
+			"column": "4",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "LOW",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G104",
+			"details": "Errors unhandled.",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/strings.go",
+			"code": "50: \n51: \t\tw.Write([]byte{']'})\n52: \t\treturn\n",
+			"line": "51",
+			"column": "3",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "LOW",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G104",
+			"details": "Errors unhandled.",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/strings.go",
+			"code": "44: \t\t\tif i \u003e 0 {\n45: \t\t\t\tw.Write([]byte{' '})\n46: \t\t\t}\n",
+			"line": "45",
+			"column": "5",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "LOW",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G104",
+			"details": "Errors unhandled.",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/strings.go",
+			"code": "41: \tcase reflect.Slice:\n42: \t\tw.Write([]byte{'['})\n43: \t\tfor i := 0; i \u003c v.Len(); i++ {\n",
+			"line": "42",
+			"column": "3",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "LOW",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G104",
+			"details": "Errors unhandled.",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/strings.go",
+			"code": "31: \tif val.Kind() == reflect.Ptr \u0026\u0026 val.IsNil() {\n32: \t\tw.Write([]byte(\"\u003cnil\u003e\"))\n33: \t\treturn\n",
+			"line": "32",
+			"column": "3",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "LOW",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G104",
+			"details": "Errors unhandled.",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/repos_releases.go",
+			"code": "373: \tif err := CheckResponse(resp); err != nil {\n374: \t\tresp.Body.Close()\n375: \t\treturn nil, err\n",
+			"line": "374",
+			"column": "3",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "LOW",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G104",
+			"details": "Errors unhandled.",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/repos_releases.go",
+			"code": "354: \tif err := CheckResponse(resp); err != nil {\n355: \t\tresp.Body.Close()\n356: \t\treturn nil, \"\", err\n",
+			"line": "355",
+			"column": "3",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "LOW",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G104",
+			"details": "Errors unhandled.",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/github.go",
+			"code": "1496: \tif followRedirects \u0026\u0026 resp.StatusCode == http.StatusMovedPermanently {\n1497: \t\tresp.Body.Close()\n1498: \t\tu = resp.Header.Get(\"Location\")\n",
+			"line": "1497",
+			"column": "3",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "LOW",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G104",
+			"details": "Errors unhandled.",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/github/github.go",
+			"code": "1136: \tif err == nil \u0026\u0026 data != nil {\n1137: \t\tjson.Unmarshal(data, errorResponse)\n1138: \t}\n",
+			"line": "1137",
+			"column": "3",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "LOW",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G104",
+			"details": "Errors unhandled.",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/example/topics/main.go",
+			"code": "27: \tfmt.Print(\"Enter GitHub topic: \")\n28: \tfmt.Scanf(\"%s\", \u0026topic)\n29: \n",
+			"line": "28",
+			"column": "2",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "LOW",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G104",
+			"details": "Errors unhandled.",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/example/simple/main.go",
+			"code": "27: \tfmt.Print(\"Enter GitHub username: \")\n28: \tfmt.Scanf(\"%s\", \u0026username)\n29: \n",
+			"line": "28",
+			"column": "2",
+			"nosec": false,
+			"suppressions": null
+		},
+		{
+			"severity": "LOW",
+			"confidence": "HIGH",
+			"cwe": {
+				"id": "703",
+				"url": "https://cwe.mitre.org/data/definitions/703.html"
+			},
+			"rule_id": "G104",
+			"details": "Errors unhandled.",
+			"file": "/Users/rajatbahuguna/Documents/projects/gotest/go-github/example/ratelimit/main.go",
+			"code": "21: \tfmt.Print(\"Enter GitHub username: \")\n22: \tfmt.Scanf(\"%s\", \u0026username)\n23: \n",
+			"line": "22",
+			"column": "2",
+			"nosec": false,
+			"suppressions": null
+		}
+	],
+	"Stats": {
+		"files": 166,
+		"lines": 55859,
+		"nosec": 0,
+		"found": 32
+	},
+	"GosecVersion": "dev"
+}
