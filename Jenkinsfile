@@ -48,9 +48,6 @@ pipeline {
         	}
 		}
 		stage('STG_BUILD') {
-			when{
-				branch 'stage'
-			}
 			steps {
 				// script {
 				// 	committerEmail = sh (
