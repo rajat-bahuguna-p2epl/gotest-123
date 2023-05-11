@@ -28,7 +28,7 @@ pipeline {
 				// 	channel: '#pl-kalp-build-alerts',
 				// 	message: "${env.JOB_NAME} | Job has initiated : #${env.BUILD_NUMBER} by ${committerEmail}")
             	// sh 'go get -v github.com/p2eengineering/kaps'
-            	sh 'go build .'
+            	//sh 'go build .'
 				sh "go version"
 				sh "go install github.com/securego/gosec/v2/cmd/gosec@latest"
                 sh "time gosec -fmt=json -out=reports.json ./... || true"
