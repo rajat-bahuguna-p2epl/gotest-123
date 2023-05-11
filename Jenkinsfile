@@ -31,7 +31,7 @@ pipeline {
             	//sh 'go build .'
 				sh "go version"
 				sh "go install github.com/securego/gosec/v2/cmd/gosec@latest"
-                sh "time gosec -fmt=json -out=reports.json ./... || true"
+                sh "time gosec -fmt=json -out=reports.json ./..."
                 script {
                    def reports = readJSON(file: 'reports.json')
                     if (reports && reports.issues && reports.issues.size() > 0)  {
